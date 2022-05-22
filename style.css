@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: linear-gradient(rgba(5, 7, 12 ,0.75), rgba(5, 7, 12, 0.75)),
+    url(https://tec.com.pe/wp-content/uploads/2022/02/thumb-1920-1185634.jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: "Koulen";
+}
+header {
+    margin-bottom: 40px;
+}
+nav {
+    background-color:rgba(5, 7, 12, 0.5);
+    text-align: center;
+}
+nav ul li {
+    color: grey;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+h1 {
+    color: grey;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: overline;
+}
+p {
+    width: 600px;
+    font-size: 18px;
+    padding: 0px 10px;
+    position: relative;
+    left: 700px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    color: grey;
+}
+div {
+    position: relative;
+    bottom: 50px;
+}
+aside {
+    position: relative;
+    left: 1140px;
+    bottom: 900px;
+    font-size: 18px;
+    display: inline-block;
+}
+aside h2 {
+    font-size: 25px;
+    color: grey;
+    text-decoration: underline;
+}
+aside ul li {
+    list-style-type: none;
+    color: grey;
+}
+img {  
+    position: relative;
+    bottom: 670px;
+    margin: 50px 90px;
+    transition: box-shadow 0.3s ease;
+}
+img:hover {
+    box-shadow: 0 0 0.5rem rgba(196, 186, 186, 0.3);
+}
+.art-2 {
+    position: relative;
+    bottom: 600px;
+    margin: 5px;
+    width: 1070px;
+    height: 300px;
+    color: grey;
+}
+section article h2 {
+    font-size: 35px;
+    padding: 5px;
+    background-color: black;
+    width: 80%;
+}
+.art-2 ul li {
+    font-size: 25px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
