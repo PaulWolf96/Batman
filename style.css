@@ -25,6 +25,7 @@ nav ul li {
     display: inline-block;
     padding: 0 1em;
     text-decoration: overline;
+    transition: text-shadow 0.2s ease;
 }
 nav ul li:hover {
     text-shadow: 0 0 0.5em;
@@ -73,6 +74,9 @@ div {
     font-size: 2em;
     line-height: 1.5em;
 }
+.section-2_ul {
+    padding-top: 1.1em;
+}
 .link-movie {
     list-style-type: none;
     font-size: 1.3em;
@@ -80,14 +84,19 @@ div {
 .link-movie a {
     text-decoration:none;
     color: grey;
+    transition: text-shadow 0.2s ease;
 }
-.section-2_ul {
-    padding-top: 1.1em;
+.link-movie a:hover {
+    text-shadow: 0 0 0.5em;
 }
 .aside {
     border: 0.1em solid grey;
     border-radius: 0.5em;
     padding: 1em 0.5em;
+    transition: box-shadow 0.3s ease;
+}
+.aside:hover {
+    box-shadow: 0 0 0.5em rgba(196, 186, 186);
 }
 .aside-h2 {
     text-decoration: overline;
