@@ -58,6 +58,12 @@ div {
     justify-content: space-between;
     padding: 5em 3em;
 }
+footer div {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    height: 4em;
+}
 .link-pag a {
     text-decoration: none;
     color: grey;
